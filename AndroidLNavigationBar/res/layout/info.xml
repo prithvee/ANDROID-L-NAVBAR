@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#143540" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/btn"
+                    android:gravity="center"
+                    android:text="Note"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/btn"
+                    android:gravity="center"
+                    android:text="Usage : Activate in Xposed framework and reboot.\n\nThis module only changes the navigation bar icons and not anything related to statusbar.This module needs an active navigation bar.\n\nFor example In Samsung phones there is no navigation bar and hence you may not feel any changes after you install this module.\n\nTo see changes first activate you navigation bar by adding the below code at the end of your ROM&apos;s build.prop (using any file explorer).You can find it in &apos;System/build.prop&apos;."
+                    android:textAlignment="center"
+                    android:padding="3dp"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center"
+                    android:text="Press and Hold to copy"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="12sp" />
+                
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="@drawable/btnsel"
+                    android:gravity="center"
+                    android:text="qemu.hw.mainkeys=0"
+                    android:textAlignment="center"
+                    android:textColor="#ff000000"
+                    android:textIsSelectable="true"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+        </ScrollView>
+        
+    </LinearLayout>
+
+</RelativeLayout>
