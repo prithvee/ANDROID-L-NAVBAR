@@ -42,7 +42,7 @@
                     android:layout_margin="4dp"
                     android:background="@drawable/btn"
                     android:gravity="center"
-                    android:text="Usage : Activate in Xposed framework and reboot.\n\nThis module only changes the navigation bar icons and not anything related to statusbar.This module needs an active navigation bar.\n\nFor example In Samsung phones there is no navigation bar and hence you may not feel any changes after you install this module.\n\nTo see changes first activate you navigation bar by adding the below code at the end of your ROM&apos;s build.prop (using any file explorer).You can find it in &apos;System/build.prop&apos;."
+                    android:text="Usage : Activate in Xposed framework and reboot.\n\nThis module only changes the navigation bar icons and not anything related to statusbar.This module needs an active navigation bar.\n\nFor example In Samsung phones there is no navigation bar and hence you may not feel any changes after you install this module.\n\nTo see changes first activate you navigation bar by adding the below code at the end of your ROM&apos;s build.prop (using any file explorer).You can find it in &apos;System/build.prop&apos;.\n\nTAKE A BACKUP BEFORE MODIFYING BUILD.PROP AS IT MAY SOMETIMES BREAK YOU ROM."
                     android:textAlignment="center"
                     android:padding="3dp"
                     android:textColor="#ffffff"
